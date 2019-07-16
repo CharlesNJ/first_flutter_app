@@ -28,14 +28,22 @@ class Welcome extends StatelessWidget {
             Container(
               width: 100,
               height: 100,
+              alignment: Alignment.center,
               color: Colors.red,
             ),
             Container(
+              alignment: Alignment.center,
+              margin: const EdgeInsets.all(5),
+              padding: const EdgeInsets.all(8.0),
               width: 90,
               height: 90,
+
               color: Colors.green,
             ),
             Container(
+              alignment: Alignment.center,
+              margin: const EdgeInsets.all(8.0),
+              //padding: const EdgeInsets.all(8.0),
               width: 80,
               height: 80,
               color: Colors.blue,
