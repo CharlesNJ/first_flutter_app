@@ -42,7 +42,7 @@ class Welcome extends StatelessWidget {
             ),
             Container(
               alignment: Alignment.center,
-              margin: const EdgeInsets.all(8.0),
+              margin: const EdgeInsets.fromLTRB(6, 5, 4, 5),
               //padding: const EdgeInsets.all(8.0),
               width: 80,
               height: 80,
